@@ -1,6 +1,8 @@
 # Wordpress docker image
 After start docker compose from `wordpress-stack` using [docker-compose](https://github.com/docker/compose/releases), we should modify the wordpress settings or then commit to new docker image.
 
+This project followed [Quickstart: Compose and WordPress](https://docs.docker.com/compose/wordpress/).
+
 
 # Troubleshooting
 Wordpress limit the size of the upload files, we can create a file named `htaccess`, and add the following content
